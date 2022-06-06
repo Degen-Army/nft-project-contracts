@@ -33,8 +33,6 @@ async function main() {
 
 
   // Attempt to mint and verify success
-
-
   for (let index = 0; index < 4; index++) {
 
     await nftcontract.safeMint( '0xaCfC1540F8aF26fFaA13bc3a9618f2224140627B',  index, { "gasLimit": "500000" })
